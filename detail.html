@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details products</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./detail.css">
+</head>
+<body>
+    <section>
+        <div class="container flex">
+          <div class="left">
+            <div class="main_image">
+              <img src="./images/card-2.jpg" class="slide">
+            </div>
+            <div class="option flex">
+              <img src="./images/card-10.jpg" onclick="img('images/card-10.jpg')">
+              <img src="./images/card-1.jpg" onclick="img('images/card-1.jpg')">
+              <img src="./images/card-6.jpg" onclick="img('images/card-6.jpg')">
+              <img src="./images/card-4.jpg" onclick="img('images/card-4.jpg')">
+              <img src="./images/card-7.jpg" onclick="img('images/card-7.jpg')">
+              <img src="./images/card-9.jpg" onclick="img('images/card-9.jpg')">
+            </div>
+          </div>
+          <div class="right">
+            <h3>Azuki Nakamigos</h3>
+            <h5>Owner By <span style="color: #20ABD0; font-size: 17px;">Visal</span></h5>
+            <p>Azuki Nakamigos is a beautiful art from USA design its by personal art and popular designer in the world it almost high price . Do u want to buy it ? yes its so amazing Art let’s buy it now </p>
+            <h5>Current price</h5>
+            <h4>0.26 ETH</h4>
+            <h5 style="font-size: 15px; margin-top: 10px;">$460.05</h5>
+            <!-- <h4> <small>$</small>999.99 </h4>  -->
+            <div class="btn">
+                <button>Add to Cart</button>
+                <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        function img(anything) {
+          document.querySelector('.slide').src = anything;
+        }
+    
+        function change(change) {
+          const line = document.querySelector('.home');
+          line.style.background = change;
+        }
+      </script>
+</body>
+</html>
