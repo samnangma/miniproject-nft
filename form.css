@@ -12,7 +12,36 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background:  linear-gradient(rgba(32, 171, 208, 0.8),#060047); */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+}
+section .galaxy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+section .uni{
+    position: absolute;
+    scale: 0.65;
+    animation: animateUni 10s linear infinite;
+}
+@keyframes animateUni {
+    0%{
+        transform: translateX(calc(100% + 100vw));
+    }
+    50%{
+        transform: translateX(calc(-100% - 100vw));
+    }
+    50.01%{
+        transform: translateX(calc(-100% - 100vw))
+        rotateY(180deg);
+    }
+    100%{
+        transform: translateX(calc(100% + 100vw))
+        rotateY(180deg);
+    }
 }
 .box{
     position: relative;

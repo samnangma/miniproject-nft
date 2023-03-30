@@ -609,8 +609,8 @@ header.sticky {
 }
 
 .header-image {
-   width: 600px;
-   height: 700px;
+   width: 550px;
+   height: 750px;
 
 }
 
@@ -621,7 +621,9 @@ header.sticky {
     /* object-fit: cover; */
     object-fit: contain;
     border-radius: 20px; 
-   /* margin-top: 20px; */
+    
+
+    /* margin-top: 20px; */
 }
 
 .floating {
