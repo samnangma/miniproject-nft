@@ -1051,7 +1051,7 @@ header.sticky {
 .sc-card {
    padding: 20px;
    /* background: rgba(8, 4, 50, 0.7); */
-   border: 1px solid #D4226F;
+   border: 1px solid whitesmoke;
   backdrop-filter: blur(150px);
 /* Note: backdrop-filter has minimal browser support */
    border-radius: 20px;

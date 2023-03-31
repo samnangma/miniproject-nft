@@ -86,8 +86,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 a {
-   /* color: var(--primary-color2); */
-   color: whitesmoke;
+   color: var(--primary-color2);
+   /* color: whitesmoke; */
    text-decoration: none;
 }
 
@@ -593,6 +593,8 @@ header.sticky {
    color: #20ABD0;
    -webkit-text-fill-color: transparent;
    background-image: linear-gradient(to left, var(--primary-color3), #D4226F);
+   /* background-image: linear-gradient(to right, var(--primary-color3), rgb(255, 0, 0)); */
+   /* background-image: red;  */
    -webkit-background-clip: text;
 
 }
@@ -700,7 +702,7 @@ header.sticky {
    padding: 20px;
    /* background: rgba(8, 4, 50, 0.7); */
    /* border: 1px solid whitesmoke; */
-   border: 1px solid #D4226F;
+   border: 1px solid whitesmoke;
    backdrop-filter: blur(150px);
    border-radius: 20px;
    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
