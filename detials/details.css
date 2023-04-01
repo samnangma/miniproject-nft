@@ -87,8 +87,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 a {
-   /* color: var(--primary-color2); */
-   color: whitesmoke;
+   color: var(--primary-color2);
+   /* color: whitesmoke; */
    text-decoration: none;
 }
 
