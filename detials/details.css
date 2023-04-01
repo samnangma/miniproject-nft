@@ -56,9 +56,11 @@
    --outline-btn-hover: #20ABD0;
 
    --main-header-btn: #fff;
-    --main-header: #20ABD0; 
+    --main-header: #060047; 
+    /* --main-header: #20ABD0; */
    /* --main-header: linear-gradient(45deg, #2e277d, #6e18a7); */
-   --header-bg-sticky: #20ABD0;
+   --header-bg-sticky: #060047;
+   /* --header-bg-sticky: #20ABD0; */
    --header-bg: linear-gradient(45deg, #2e277d, #6e18a7);
    --soft-bg: #838383; 
 }
